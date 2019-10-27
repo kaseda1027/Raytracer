@@ -56,7 +56,7 @@ sphere x y z radius KaR KaG KaB KdR KdG KdB KsR KsG KsB KrR KrG KrB
 # A uniform scaling given by scale
 # A translation by (tx, ty, tz) units
 model wx wy wz theta scale tx ty tz model.obj
-<pre/>
+</pre>
 
 The final parameter for any model line is the path (relative to the runtime directory of the program, or for ease of use, an absolute path to the file) of a Wavefront Object model file. The only lines which impact the render are vertices, faces, matlib, and usemtl. Other lines are not featured in the ray tracer, and ignored, including lines which are completely invalid. Similarly to the model, any mtllib files used should be relative to the runtime directory or absolute.
 
